@@ -51,7 +51,7 @@ cd ./python
 ```
 pip install -r requeriments.txt
 ```
-
+<!--
 *ROS Install:*
 
 ```
@@ -81,3 +81,4 @@ echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-a
 ```
 
 ```
+-->
