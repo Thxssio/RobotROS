@@ -19,6 +19,7 @@ jobs:
       - name: Install dependencies
         run: |
           pip install pytest
+          pip install -r ./python/requirements.txt
       - name: Test with pytest
         run: |
           pytest ./python/i2cscan.py
