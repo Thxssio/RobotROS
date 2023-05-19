@@ -7,6 +7,7 @@
 *MPU6050:*
 
 [![.github/workflows/testcpp.yml](https://github.com/Thxssio/RobotROS/actions/workflows/testcpp.yml/badge.svg)](https://github.com/Thxssio/RobotROS/actions/workflows/testcpp.yml)
+[![Python package](https://github.com/Thxssio/RobotROS/actions/workflows/testpython.yml/badge.svg)](https://github.com/Thxssio/RobotROS/actions/workflows/testpython.yml)
 
  - i2c detect
  ```
