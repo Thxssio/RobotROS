@@ -1,6 +1,5 @@
 pyqtgraph
-adafruit-circuitpython-fxos8700
 imufusion
-adafruit-circuitpython-fxas21002c
+matplotlib
 pyqtgraph
 collection
