@@ -28,8 +28,17 @@ dtparam=i2c_arm=on, i2c_arm_baudrate=1000000
   #
 
 `pip install collection`
+
 `pip install pyqtgraph`
+
 `pip install board`
+
 `pip install adafruit-circuitpython-fxos8700`
+
 `pip install imufusion`
+
 `pip install adafruit-circuitpython-fxas21002c`
+*or*
+```
+pip install -r requeriments.txt
+```
