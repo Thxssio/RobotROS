@@ -14,4 +14,8 @@ ROS Robots
 dtparam=i2c_arm=on, i2c_arm_baudrate=1000000
   ```
   
+  ```
+  g++ main.cpp -o test -lwiringPi libSensor.cpp
+  ```
+  
   
