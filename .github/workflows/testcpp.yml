@@ -16,5 +16,5 @@ jobs:
     - name: configure
       run: cd ./cpp/MPU_6050
     - name: make
-      run: g++ main.cpp -o test -lwiringPi libSensor.cpp
+      run: g++ main.cpp -o test -lwiringPi ./libSensor.cpp
 
