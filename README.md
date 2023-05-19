@@ -6,6 +6,8 @@
 
 *MPU6050:*
 
+[![.github/workflows/c-cpp.yml](https://github.com/Thxssio/RobotROS/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/Thxssio/RobotROS/actions/workflows/c-cpp.yml)
+
  - i2c detect
  ```
  sudo i2cdetect -y 1
