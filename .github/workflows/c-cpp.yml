@@ -13,5 +13,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - name: configure
+    - name: Join folder
+    - run: cd cpp
 
