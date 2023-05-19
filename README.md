@@ -1,5 +1,10 @@
 <h1 align="center">RobotROS</h1>
-ROS Robots
+
+
+
+***ROS Robots***
+
+*MPU6050:*
 
  - i2c detect
  ```
@@ -18,4 +23,4 @@ dtparam=i2c_arm=on, i2c_arm_baudrate=1000000
   g++ main.cpp -o test -lwiringPi libSensor.cpp
   ```
   
-  
+  #
