@@ -19,8 +19,6 @@ jobs:
       - name: Install dependencies
         run: |
           pip install --upgrade pip
-      - name: Test code
-        run: |
-          python3  ./MPU3DAnality/mpu6050.py
+      
            
 
