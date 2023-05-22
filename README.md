@@ -82,3 +82,8 @@ echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-a
 
 ```
 -->
+
+Cpu temperature:
+```
+vcgencmd measure_temp
+```
