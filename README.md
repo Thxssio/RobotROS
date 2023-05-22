@@ -92,3 +92,14 @@ Python name default:
 ```
 sudo ln -sf /usr/bin/python3 /usr/bin/python
 ```
+Install Gpio:
+
+```
+sudo apt install python3-lgpio
+```
+
+Install smbus:
+
+```
+sudo apt install python3-smbus
+```
