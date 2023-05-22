@@ -87,3 +87,8 @@ Cpu temperature:
 ```
 vcgencmd measure_temp
 ```
+Python name default:
+
+```
+sudo ln -sf /usr/bin/python3 /usr/bin/python
+```
