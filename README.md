@@ -97,3 +97,9 @@ Install Gpio:
 ```
 sudo apt install python3-lgpio
 ```
+
+Install smbus:
+
+```
+sudo apt install python3-smbus
+```
