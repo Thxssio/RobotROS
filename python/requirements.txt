@@ -3,3 +3,4 @@ imufusion
 matplotlib
 pyqtgraph
 collection
+board
