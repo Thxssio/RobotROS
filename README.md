@@ -132,6 +132,21 @@ Source setup.bash in your workspace:
 </p>
 
 
+- [ ] Update IMU - MPU6050 >>> MPU9250
+    
+    
+    `MPU6050`
+     -  [x] Pitch
+     -  [x] Roll
+     -  [ ] Yaw   (Magnetometer required)
+
+    `MPU9250`
+     -  [x] Pitch
+     -  [x] Roll
+     -  [x] Yaw   (Magnetometer required)
+
+
+
 - [x] Pub:
 ```
 ros2 launch imu imu_launch.py
