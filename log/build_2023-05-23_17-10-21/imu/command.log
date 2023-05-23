@@ -1,0 +1,6 @@
+Invoking command in '/home/thxssio/Codes/RobotROS/build/imu': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/thxssio/Codes/RobotROS/src/imu -DCMAKE_INSTALL_PREFIX=/home/thxssio/Codes/RobotROS/install/imu
+Invoked command in '/home/thxssio/Codes/RobotROS/build/imu' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/thxssio/Codes/RobotROS/src/imu -DCMAKE_INSTALL_PREFIX=/home/thxssio/Codes/RobotROS/install/imu
+Invoking command in '/home/thxssio/Codes/RobotROS/build/imu': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/thxssio/Codes/RobotROS/build/imu -- -j4 -l4
+Invoked command in '/home/thxssio/Codes/RobotROS/build/imu' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/thxssio/Codes/RobotROS/build/imu -- -j4 -l4
+Invoking command in '/home/thxssio/Codes/RobotROS/build/imu': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/thxssio/Codes/RobotROS/build/imu
+Invoked command in '/home/thxssio/Codes/RobotROS/build/imu' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/thxssio/Codes/RobotROS/build/imu

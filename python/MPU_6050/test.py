@@ -1,9 +1,8 @@
 from mpu6050 import mpu6050
 from time import sleep
-import sys
 import os
 import math
-from math import sqrt, atan
+from math import sqrt, atan, atan2, pi
 
 sensor = mpu6050(0x68)
 
@@ -16,9 +15,9 @@ while True:
     RatePitch=gyro_data['y']/65.5
     RateYaw=gyro_data['z']/65.5
     
-    AngleRoll = (atan(accel_data['y']/sqrt(accel_data['x']*accel_data['x']+accel_data['z']*accel_data['z'])))*1/(3.142/180)
-    AnglePitch = (atan(accel_data['x']/sqrt(accel_data['y']*accel_data['y']+accel_data['z']*accel_data['z'])))*1/(3.142/180)
-    
+    AngleRoll = (atan(accel_data['y']/sqrt(accel_data['x']*accel_data['x']+accel_data['z']*accel_data['z'])))*1/(pi/180)
+    AnglePitch = (atan(accel_data['x']/sqrt(accel_data['y']*accel_data['y']+accel_data['z']*accel_data['z'])))*1/(pi/180)
+    AngleYaw = (atan2(accel_data['x'], accel_data['y']))*1/(pi/180)
     
     
     print("Rate Roll", RateRoll)
@@ -27,7 +26,8 @@ while True:
     print("")
     print("AngleRoll", AngleRoll)
     print("AnglePitch", AnglePitch)
-    #print("AngleYaw", AngleYaw)
+    print("AngleYaw", AngleYaw)
+    
     """
     print("Accelerometer data")
     print("x: " + str(accel_data['x']))

@@ -1,2 +1,0 @@
-Invoking command in '/home/thxssio/Codes/RobotROS/build/imu': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/thxssio/Codes/RobotROS/src/imu -DCMAKE_INSTALL_PREFIX=/home/thxssio/Codes/RobotROS/install/imu
-Invoked command in '/home/thxssio/Codes/RobotROS/build/imu' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/thxssio/Codes/RobotROS/src/imu -DCMAKE_INSTALL_PREFIX=/home/thxssio/Codes/RobotROS/install/imu

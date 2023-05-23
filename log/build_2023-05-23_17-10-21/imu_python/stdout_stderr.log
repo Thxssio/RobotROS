@@ -1,0 +1,42 @@
+running egg_info
+creating ../../build/imu_python/imu_python.egg-info
+writing ../../build/imu_python/imu_python.egg-info/PKG-INFO
+writing dependency_links to ../../build/imu_python/imu_python.egg-info/dependency_links.txt
+writing entry points to ../../build/imu_python/imu_python.egg-info/entry_points.txt
+writing requirements to ../../build/imu_python/imu_python.egg-info/requires.txt
+writing top-level names to ../../build/imu_python/imu_python.egg-info/top_level.txt
+writing manifest file '../../build/imu_python/imu_python.egg-info/SOURCES.txt'
+reading manifest file '../../build/imu_python/imu_python.egg-info/SOURCES.txt'
+writing manifest file '../../build/imu_python/imu_python.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/thxssio/Codes/RobotROS/build/imu_python/build
+creating /home/thxssio/Codes/RobotROS/build/imu_python/build/lib
+creating /home/thxssio/Codes/RobotROS/build/imu_python/build/lib/imu_python
+copying imu_python/__init__.py -> /home/thxssio/Codes/RobotROS/build/imu_python/build/lib/imu_python
+copying imu_python/registers.py -> /home/thxssio/Codes/RobotROS/build/imu_python/build/lib/imu_python
+copying imu_python/imu_node.py -> /home/thxssio/Codes/RobotROS/build/imu_python/build/lib/imu_python
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+creating /home/thxssio/Codes/RobotROS/install/imu_python/lib/python3.10/site-packages/imu_python
+copying /home/thxssio/Codes/RobotROS/build/imu_python/build/lib/imu_python/__init__.py -> /home/thxssio/Codes/RobotROS/install/imu_python/lib/python3.10/site-packages/imu_python
+copying /home/thxssio/Codes/RobotROS/build/imu_python/build/lib/imu_python/registers.py -> /home/thxssio/Codes/RobotROS/install/imu_python/lib/python3.10/site-packages/imu_python
+copying /home/thxssio/Codes/RobotROS/build/imu_python/build/lib/imu_python/imu_node.py -> /home/thxssio/Codes/RobotROS/install/imu_python/lib/python3.10/site-packages/imu_python
+byte-compiling /home/thxssio/Codes/RobotROS/install/imu_python/lib/python3.10/site-packages/imu_python/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/thxssio/Codes/RobotROS/install/imu_python/lib/python3.10/site-packages/imu_python/registers.py to registers.cpython-310.pyc
+byte-compiling /home/thxssio/Codes/RobotROS/install/imu_python/lib/python3.10/site-packages/imu_python/imu_node.py to imu_node.cpython-310.pyc
+running install_data
+creating /home/thxssio/Codes/RobotROS/install/imu_python/share
+creating /home/thxssio/Codes/RobotROS/install/imu_python/share/ament_index
+creating /home/thxssio/Codes/RobotROS/install/imu_python/share/ament_index/resource_index
+creating /home/thxssio/Codes/RobotROS/install/imu_python/share/ament_index/resource_index/packages
+copying resource/imu_python -> /home/thxssio/Codes/RobotROS/install/imu_python/share/ament_index/resource_index/packages
+creating /home/thxssio/Codes/RobotROS/install/imu_python/share/imu_python
+copying package.xml -> /home/thxssio/Codes/RobotROS/install/imu_python/share/imu_python
+running install_egg_info
+Copying ../../build/imu_python/imu_python.egg-info to /home/thxssio/Codes/RobotROS/install/imu_python/lib/python3.10/site-packages/imu_python-0.0.0-py3.10.egg-info
+running install_scripts
+Installing imu_node script to /home/thxssio/Codes/RobotROS/install/imu_python/lib/imu_python
+writing list of installed files to '/home/thxssio/Codes/RobotROS/build/imu_python/install.log'
