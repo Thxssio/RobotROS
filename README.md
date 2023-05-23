@@ -118,5 +118,5 @@ Source setup.bash in your workspace:
 RUN
 
 ```
-ros2 launch mpu6050driver mpu6050driver_launch.py
+ros2 launch imu imu_launch.py
 ```
