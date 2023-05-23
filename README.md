@@ -103,3 +103,9 @@ Install smbus:
 ```
 sudo apt install python3-smbus
 ```
+
+ROS2:
+
+```
+source /opt/ros/humble/setup.bash
+```
