@@ -109,3 +109,14 @@ ROS2:
 ```
 source /opt/ros/humble/setup.bash
 ```
+
+Source setup.bash in your workspace:
+
+```
+. install/setup.bash
+```
+RUN
+
+```
+ros2 launch mpu6050driver mpu6050driver_launch.py
+```
