@@ -115,8 +115,10 @@ Source setup.bash in your workspace:
 ```
 . install/setup.bash
 ```
-RUN
+<p align="middle">RUN IMU</p>
 
+
+- [x] Pub:
 ```
 ros2 launch imu imu_launch.py
 ```
