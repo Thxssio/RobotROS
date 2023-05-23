@@ -1,0 +1,8 @@
+/home/thxssio/Codes/RobotROS/build/turtlesim/rosidl_adapter/turtlesim:action/RotateAbsolute.idl
+/home/thxssio/Codes/RobotROS/build/turtlesim/rosidl_adapter/turtlesim:msg/Color.idl
+/home/thxssio/Codes/RobotROS/build/turtlesim/rosidl_adapter/turtlesim:msg/Pose.idl
+/home/thxssio/Codes/RobotROS/build/turtlesim/rosidl_adapter/turtlesim:srv/Kill.idl
+/home/thxssio/Codes/RobotROS/build/turtlesim/rosidl_adapter/turtlesim:srv/SetPen.idl
+/home/thxssio/Codes/RobotROS/build/turtlesim/rosidl_adapter/turtlesim:srv/Spawn.idl
+/home/thxssio/Codes/RobotROS/build/turtlesim/rosidl_adapter/turtlesim:srv/TeleportAbsolute.idl
+/home/thxssio/Codes/RobotROS/build/turtlesim/rosidl_adapter/turtlesim:srv/TeleportRelative.idl
