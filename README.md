@@ -115,8 +115,14 @@ Source setup.bash in your workspace:
 ```
 . install/setup.bash
 ```
-RUN
+<p align="middle">
+<strong>
+ RUN IMU
+</strong>
+</p>
 
+
+- [x] Pub:
 ```
-ros2 launch mpu6050driver mpu6050driver_launch.py
+ros2 launch imu imu_launch.py
 ```
