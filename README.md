@@ -12,6 +12,17 @@
 
 *MPU6050:*
 
+Error MPU6050:
+
+```
+No caso do MPU6050, o cálculo do ângulo de yaw (guinada) requer informações adicionais, como o campo magnético terrestre, para determinar com precisão o ângulo de rotação em torno do eixo vertical. O MPU6050 é um sensor de giroscópio e acelerômetro, mas não possui um magnetômetro integrado para medir o campo magnético necessário para o cálculo do yaw.
+
+Para obter medições precisas de yaw, você precisaria combinar o MPU6050 com um magnetômetro, como o MPU9250, que possui giroscópio, acelerômetro e magnetômetro integrados.
+
+Se o seu objetivo é obter apenas o ângulo de roll e pitch usando o MPU6050, o código fornecido anteriormente deve funcionar corretamente para essas duas medições. No entanto, para incluir o ângulo de yaw, seria necessário utilizar um sensor adicional que possua um magnetômetro integrado para medições mais precisas nessa dimensão.
+
+```
+
 
  - i2c detect
  ```
