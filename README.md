@@ -117,7 +117,7 @@ Source setup.bash in your workspace:
 ```
 <p align="middle">
 <strong>
- RUN IMU
+ RUN IMU - CPP
 </strong>
 </p>
 
