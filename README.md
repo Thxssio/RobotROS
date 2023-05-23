@@ -115,7 +115,11 @@ Source setup.bash in your workspace:
 ```
 . install/setup.bash
 ```
-<p align="middle">RUN IMU</p>
+<p align="middle">
+<strong>
+ RUN IMU
+</strong>
+</p>
 
 
 - [x] Pub:
