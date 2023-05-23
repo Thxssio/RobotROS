@@ -1,6 +1,0 @@
-Invoking command in '/home/thxssio/Codes/RobotROS/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/thxssio/Codes/RobotROS/src/ros_tutorials/turtlesim -DCMAKE_INSTALL_PREFIX=/home/thxssio/Codes/RobotROS/install/turtlesim
-Invoked command in '/home/thxssio/Codes/RobotROS/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/thxssio/Codes/RobotROS/src/ros_tutorials/turtlesim -DCMAKE_INSTALL_PREFIX=/home/thxssio/Codes/RobotROS/install/turtlesim
-Invoking command in '/home/thxssio/Codes/RobotROS/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thxssio/Codes/RobotROS/build/turtlesim -- -j4 -l4
-Invoked command in '/home/thxssio/Codes/RobotROS/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/thxssio/Codes/RobotROS/build/turtlesim -- -j4 -l4
-Invoking command in '/home/thxssio/Codes/RobotROS/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/thxssio/Codes/RobotROS/build/turtlesim
-Invoked command in '/home/thxssio/Codes/RobotROS/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/thxssio/Codes/RobotROS/build/turtlesim

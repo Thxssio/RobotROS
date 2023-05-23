@@ -1,0 +1,41 @@
+[0.050s] Invoking command in '/home/thxssio/Codes/RobotROS/build/imu': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/thxssio/Codes/RobotROS/src/imu -DCMAKE_INSTALL_PREFIX=/home/thxssio/Codes/RobotROS/install/imu
+[0.296s] -- The C compiler identification is GNU 11.3.0
+[0.541s] -- The CXX compiler identification is GNU 11.3.0
+[0.570s] -- Detecting C compiler ABI info
+[0.861s] -- Detecting C compiler ABI info - done
+[0.888s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.889s] -- Detecting C compile features
+[0.891s] -- Detecting C compile features - done
+[0.901s] -- Detecting CXX compiler ABI info
+[1.232s] -- Detecting CXX compiler ABI info - done
+[1.259s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.260s] -- Detecting CXX compile features
+[1.262s] -- Detecting CXX compile features - done
+[1.285s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.082s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[2.600s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.998s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.999s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/thxssio/Codes/RobotROS/src/imu/include>
+[2.999s] -- Configured cppcheck exclude dirs and/or files: 
+[3.001s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.005s] -- Added test 'lint_cmake' to check CMake code style
+[3.007s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.016s] -- Added test 'uncrustify' to check C / C++ code style
+[3.016s] -- Configured uncrustify additional arguments: 
+[3.019s] -- Added test 'xmllint' to check XML markup files
+[3.025s] -- Configuring done
+[3.034s] [31mCMake Error at CMakeLists.txt:14 (add_executable):
+[3.035s]   Cannot find source file:
+[3.035s] 
+[3.036s]     src/sensor_msgs.cpp
+[3.036s] 
+[3.036s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[3.037s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[3.037s] 
+[3.037s] [0m
+[3.038s] [31mCMake Error at CMakeLists.txt:14 (add_executable):
+[3.039s]   No SOURCES given to target: sensor_msgs
+[3.040s] 
+[3.040s] [0m
+[3.041s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[3.049s] Invoked command in '/home/thxssio/Codes/RobotROS/build/imu' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/thxssio/Codes/RobotROS/src/imu -DCMAKE_INSTALL_PREFIX=/home/thxssio/Codes/RobotROS/install/imu

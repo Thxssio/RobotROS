@@ -1,0 +1,9 @@
+In file included from [01m[K/home/thxssio/Codes/RobotROS/src/imu/src/mpu6050driver.cpp:1[m[K:
+[01m[K/home/thxssio/Codes/RobotROS/src/imu/include/imu/mpu6050driver.h:4:10:[m[K [01;31m[Kfatal error: [m[Kmpu6050driver/mpu6050sensor.h: No such file or directory
+    4 | #include [01;31m[K"mpu6050driver/mpu6050sensor.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/imu.dir/build.make:76: CMakeFiles/imu.dir/src/mpu6050driver.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/imu.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
