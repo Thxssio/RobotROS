@@ -153,7 +153,9 @@ Source setup.bash in your workspace:
  <img src="https://i.ebayimg.com/images/g/eVIAAOSwYh5hwq9h/s-l500.jpg" width="auto" height="300">
 </div>
 
-
+```
+pip install setuptools==58.2.0
+```
 - [x] Pub:
 ```
 ros2 launch imu imu_launch.py
