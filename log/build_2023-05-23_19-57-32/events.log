@@ -1,0 +1,333 @@
+[0.000000] (-) TimerEvent: {}
+[0.001451] (imu) JobQueued: {'identifier': 'imu', 'dependencies': OrderedDict()}
+[0.001968] (imu) JobStarted: {'identifier': 'imu'}
+[0.050752] (imu) JobProgress: {'identifier': 'imu', 'progress': 'cmake'}
+[0.051659] (imu) Command: {'cmd': ['/usr/bin/cmake', '/home/thxssio/Codes/RobotROS/src/imu', '-DCMAKE_INSTALL_PREFIX=/home/thxssio/Codes/RobotROS/install/imu'], 'cwd': '/home/thxssio/Codes/RobotROS/build/imu', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'thxssio'), ('SSH_CLIENT', '192.168.0.195 61176 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/thxssio'), ('OLDPWD', '/home/thxssio/Codes/RobotROS/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator2ca99f9887f2e75578a20e2d2ebb4e9f7'), ('COLCON_PREFIX_PATH', '/home/thxssio/Codes/RobotROS/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'thxssio'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/thxssio/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/thxssio/Codes/RobotROS/install/imu_python:/home/thxssio/Codes/RobotROS/install/imu:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:8217c878-8387-494d-9ec7-195be51645ba'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/thxssio/Codes/RobotROS/build/imu'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.195 61176 192.168.0.190 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/thxssio/Codes/RobotROS/install/imu_python/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/thxssio/Codes/RobotROS/install/imu:/home/thxssio/Codes/RobotROS/install/imu_python:/opt/ros/humble')]), 'shell': False}
+[0.099105] (-) TimerEvent: {}
+[0.199812] (-) TimerEvent: {}
+[0.300623] (-) TimerEvent: {}
+[0.307589] (imu) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.400894] (-) TimerEvent: {}
+[0.501743] (-) TimerEvent: {}
+[0.550465] (imu) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[0.580768] (imu) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.601874] (-) TimerEvent: {}
+[0.702548] (-) TimerEvent: {}
+[0.803263] (-) TimerEvent: {}
+[0.879811] (imu) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.903433] (-) TimerEvent: {}
+[0.905975] (imu) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.906783] (imu) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.908113] (imu) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.918866] (imu) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.003630] (-) TimerEvent: {}
+[1.104464] (-) TimerEvent: {}
+[1.205382] (-) TimerEvent: {}
+[1.250712] (imu) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.278736] (imu) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.279686] (imu) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.281369] (imu) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.305179] (imu) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.305699] (-) TimerEvent: {}
+[1.406186] (-) TimerEvent: {}
+[1.506824] (-) TimerEvent: {}
+[1.607654] (-) TimerEvent: {}
+[1.708340] (-) TimerEvent: {}
+[1.809073] (-) TimerEvent: {}
+[1.909763] (-) TimerEvent: {}
+[2.010450] (-) TimerEvent: {}
+[2.111217] (-) TimerEvent: {}
+[2.115240] (imu) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[2.211369] (-) TimerEvent: {}
+[2.312038] (-) TimerEvent: {}
+[2.412717] (-) TimerEvent: {}
+[2.513354] (-) TimerEvent: {}
+[2.613984] (-) TimerEvent: {}
+[2.634783] (imu) StdoutLine: {'line': b'-- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.714148] (-) TimerEvent: {}
+[2.814819] (-) TimerEvent: {}
+[2.915489] (-) TimerEvent: {}
+[2.958657] (imu) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.000267] (imu) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.015653] (-) TimerEvent: {}
+[3.055782] (imu) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.115851] (-) TimerEvent: {}
+[3.131524] (imu) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.216025] (-) TimerEvent: {}
+[3.241730] (imu) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.316195] (-) TimerEvent: {}
+[3.417025] (-) TimerEvent: {}
+[3.517695] (-) TimerEvent: {}
+[3.613367] (imu) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.617839] (-) TimerEvent: {}
+[3.635039] (imu) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.718009] (-) TimerEvent: {}
+[3.818640] (-) TimerEvent: {}
+[3.919255] (-) TimerEvent: {}
+[4.019904] (-) TimerEvent: {}
+[4.120644] (-) TimerEvent: {}
+[4.199092] (imu) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[4.220794] (-) TimerEvent: {}
+[4.321438] (-) TimerEvent: {}
+[4.417832] (imu) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[4.421550] (-) TimerEvent: {}
+[4.522125] (-) TimerEvent: {}
+[4.622779] (-) TimerEvent: {}
+[4.723454] (-) TimerEvent: {}
+[4.793418] (imu) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.823625] (-) TimerEvent: {}
+[4.865502] (imu) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[4.923927] (-) TimerEvent: {}
+[5.024794] (-) TimerEvent: {}
+[5.125658] (-) TimerEvent: {}
+[5.178565] (imu) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[5.180647] (imu) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[5.225863] (-) TimerEvent: {}
+[5.326614] (-) TimerEvent: {}
+[5.427349] (-) TimerEvent: {}
+[5.500570] (imu) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[5.506097] (imu) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[5.527500] (-) TimerEvent: {}
+[5.628170] (-) TimerEvent: {}
+[5.728806] (-) TimerEvent: {}
+[5.829499] (-) TimerEvent: {}
+[5.930141] (-) TimerEvent: {}
+[6.030793] (-) TimerEvent: {}
+[6.131439] (-) TimerEvent: {}
+[6.164413] (imu) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[6.231616] (-) TimerEvent: {}
+[6.332265] (-) TimerEvent: {}
+[6.432936] (-) TimerEvent: {}
+[6.533702] (-) TimerEvent: {}
+[6.634347] (-) TimerEvent: {}
+[6.734979] (-) TimerEvent: {}
+[6.835642] (-) TimerEvent: {}
+[6.932605] (imu) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.935916] (-) TimerEvent: {}
+[6.987151] (imu) StdoutLine: {'line': b'-- Generating done\n'}
+[6.993376] (imu) StdoutLine: {'line': b'-- Build files have been written to: /home/thxssio/Codes/RobotROS/build/imu\n'}
+[7.027931] (imu) CommandEnded: {'returncode': 0}
+[7.029709] (imu) JobProgress: {'identifier': 'imu', 'progress': 'build'}
+[7.031976] (imu) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/thxssio/Codes/RobotROS/build/imu', '--', '-j4', '-l4'], 'cwd': '/home/thxssio/Codes/RobotROS/build/imu', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'thxssio'), ('SSH_CLIENT', '192.168.0.195 61176 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/thxssio'), ('OLDPWD', '/home/thxssio/Codes/RobotROS/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator2ca99f9887f2e75578a20e2d2ebb4e9f7'), ('COLCON_PREFIX_PATH', '/home/thxssio/Codes/RobotROS/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'thxssio'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/thxssio/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/thxssio/Codes/RobotROS/install/imu_python:/home/thxssio/Codes/RobotROS/install/imu:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:8217c878-8387-494d-9ec7-195be51645ba'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/thxssio/Codes/RobotROS/build/imu'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.195 61176 192.168.0.190 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/thxssio/Codes/RobotROS/install/imu_python/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/thxssio/Codes/RobotROS/install/imu:/home/thxssio/Codes/RobotROS/install/imu_python:/opt/ros/humble')]), 'shell': False}
+[7.038564] (-) TimerEvent: {}
+[7.139814] (-) TimerEvent: {}
+[7.231664] (imu) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/imu.dir/src/mpu6050driver.cpp.o\x1b[0m\n'}
+[7.233970] (imu) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/imu.dir/src/mpu6050sensor.cpp.o\x1b[0m\n'}
+[7.239999] (-) TimerEvent: {}
+[7.340705] (-) TimerEvent: {}
+[7.441419] (-) TimerEvent: {}
+[7.542121] (-) TimerEvent: {}
+[7.642760] (-) TimerEvent: {}
+[7.743448] (-) TimerEvent: {}
+[7.844147] (-) TimerEvent: {}
+[7.944827] (-) TimerEvent: {}
+[8.045707] (-) TimerEvent: {}
+[8.146420] (-) TimerEvent: {}
+[8.247117] (-) TimerEvent: {}
+[8.348292] (-) TimerEvent: {}
+[8.449238] (-) TimerEvent: {}
+[8.550064] (-) TimerEvent: {}
+[8.651141] (-) TimerEvent: {}
+[8.751903] (-) TimerEvent: {}
+[8.852744] (-) TimerEvent: {}
+[8.953606] (-) TimerEvent: {}
+[9.054374] (-) TimerEvent: {}
+[9.155174] (-) TimerEvent: {}
+[9.256015] (-) TimerEvent: {}
+[9.356892] (-) TimerEvent: {}
+[9.457776] (-) TimerEvent: {}
+[9.558577] (-) TimerEvent: {}
+[9.659403] (-) TimerEvent: {}
+[9.760536] (-) TimerEvent: {}
+[9.861978] (-) TimerEvent: {}
+[9.962816] (-) TimerEvent: {}
+[10.063647] (-) TimerEvent: {}
+[10.164395] (-) TimerEvent: {}
+[10.265099] (-) TimerEvent: {}
+[10.365872] (-) TimerEvent: {}
+[10.466583] (-) TimerEvent: {}
+[10.567296] (-) TimerEvent: {}
+[10.668036] (-) TimerEvent: {}
+[10.768792] (-) TimerEvent: {}
+[10.869508] (-) TimerEvent: {}
+[10.970211] (-) TimerEvent: {}
+[11.070921] (-) TimerEvent: {}
+[11.171623] (-) TimerEvent: {}
+[11.272409] (-) TimerEvent: {}
+[11.373218] (-) TimerEvent: {}
+[11.473916] (-) TimerEvent: {}
+[11.574623] (-) TimerEvent: {}
+[11.675291] (-) TimerEvent: {}
+[11.775999] (-) TimerEvent: {}
+[11.876716] (-) TimerEvent: {}
+[11.977448] (-) TimerEvent: {}
+[12.078130] (-) TimerEvent: {}
+[12.178827] (-) TimerEvent: {}
+[12.279551] (-) TimerEvent: {}
+[12.380295] (-) TimerEvent: {}
+[12.481006] (-) TimerEvent: {}
+[12.581750] (-) TimerEvent: {}
+[12.682454] (-) TimerEvent: {}
+[12.783166] (-) TimerEvent: {}
+[12.883957] (-) TimerEvent: {}
+[12.984683] (-) TimerEvent: {}
+[13.085403] (-) TimerEvent: {}
+[13.186117] (-) TimerEvent: {}
+[13.286807] (-) TimerEvent: {}
+[13.387492] (-) TimerEvent: {}
+[13.488215] (-) TimerEvent: {}
+[13.589021] (-) TimerEvent: {}
+[13.689877] (-) TimerEvent: {}
+[13.790582] (-) TimerEvent: {}
+[13.891305] (-) TimerEvent: {}
+[13.991992] (-) TimerEvent: {}
+[14.092719] (-) TimerEvent: {}
+[14.193429] (-) TimerEvent: {}
+[14.294135] (-) TimerEvent: {}
+[14.394828] (-) TimerEvent: {}
+[14.495531] (-) TimerEvent: {}
+[14.596259] (-) TimerEvent: {}
+[14.697011] (-) TimerEvent: {}
+[14.797795] (-) TimerEvent: {}
+[14.898589] (-) TimerEvent: {}
+[14.999274] (-) TimerEvent: {}
+[15.100004] (-) TimerEvent: {}
+[15.200800] (-) TimerEvent: {}
+[15.301644] (-) TimerEvent: {}
+[15.402325] (-) TimerEvent: {}
+[15.503059] (-) TimerEvent: {}
+[15.603823] (-) TimerEvent: {}
+[15.704557] (-) TimerEvent: {}
+[15.805295] (-) TimerEvent: {}
+[15.906005] (-) TimerEvent: {}
+[16.006807] (-) TimerEvent: {}
+[16.107535] (-) TimerEvent: {}
+[16.208308] (-) TimerEvent: {}
+[16.309004] (-) TimerEvent: {}
+[16.409728] (-) TimerEvent: {}
+[16.510435] (-) TimerEvent: {}
+[16.611157] (-) TimerEvent: {}
+[16.711876] (-) TimerEvent: {}
+[16.812594] (-) TimerEvent: {}
+[16.913339] (-) TimerEvent: {}
+[17.014046] (-) TimerEvent: {}
+[17.114746] (-) TimerEvent: {}
+[17.215453] (-) TimerEvent: {}
+[17.316157] (-) TimerEvent: {}
+[17.416875] (-) TimerEvent: {}
+[17.517613] (-) TimerEvent: {}
+[17.618312] (-) TimerEvent: {}
+[17.719010] (-) TimerEvent: {}
+[17.819704] (-) TimerEvent: {}
+[17.920445] (-) TimerEvent: {}
+[18.021187] (-) TimerEvent: {}
+[18.121881] (-) TimerEvent: {}
+[18.222591] (-) TimerEvent: {}
+[18.323316] (-) TimerEvent: {}
+[18.424168] (-) TimerEvent: {}
+[18.524903] (-) TimerEvent: {}
+[18.625639] (-) TimerEvent: {}
+[18.726530] (-) TimerEvent: {}
+[18.827221] (-) TimerEvent: {}
+[18.927916] (-) TimerEvent: {}
+[19.028615] (-) TimerEvent: {}
+[19.129350] (-) TimerEvent: {}
+[19.230038] (-) TimerEvent: {}
+[19.330744] (-) TimerEvent: {}
+[19.431429] (-) TimerEvent: {}
+[19.532173] (-) TimerEvent: {}
+[19.633000] (-) TimerEvent: {}
+[19.733751] (-) TimerEvent: {}
+[19.834469] (-) TimerEvent: {}
+[19.935354] (-) TimerEvent: {}
+[20.036250] (-) TimerEvent: {}
+[20.137060] (-) TimerEvent: {}
+[20.237896] (-) TimerEvent: {}
+[20.338600] (-) TimerEvent: {}
+[20.439323] (-) TimerEvent: {}
+[20.540044] (-) TimerEvent: {}
+[20.640800] (-) TimerEvent: {}
+[20.741534] (-) TimerEvent: {}
+[20.842239] (-) TimerEvent: {}
+[20.942937] (-) TimerEvent: {}
+[21.043629] (-) TimerEvent: {}
+[21.144360] (-) TimerEvent: {}
+[21.245033] (-) TimerEvent: {}
+[21.345750] (-) TimerEvent: {}
+[21.446436] (-) TimerEvent: {}
+[21.547133] (-) TimerEvent: {}
+[21.647837] (-) TimerEvent: {}
+[21.748542] (-) TimerEvent: {}
+[21.849240] (-) TimerEvent: {}
+[21.949896] (-) TimerEvent: {}
+[22.050570] (-) TimerEvent: {}
+[22.151268] (-) TimerEvent: {}
+[22.251936] (-) TimerEvent: {}
+[22.352654] (-) TimerEvent: {}
+[22.453347] (-) TimerEvent: {}
+[22.554012] (-) TimerEvent: {}
+[22.654706] (-) TimerEvent: {}
+[22.755380] (-) TimerEvent: {}
+[22.856081] (-) TimerEvent: {}
+[22.956744] (-) TimerEvent: {}
+[23.057448] (-) TimerEvent: {}
+[23.158098] (-) TimerEvent: {}
+[23.258776] (-) TimerEvent: {}
+[23.359475] (-) TimerEvent: {}
+[23.460180] (-) TimerEvent: {}
+[23.560892] (-) TimerEvent: {}
+[23.661694] (-) TimerEvent: {}
+[23.931623] (-) TimerEvent: {}
+[24.032326] (-) TimerEvent: {}
+[24.133052] (-) TimerEvent: {}
+[24.233773] (-) TimerEvent: {}
+[24.334457] (-) TimerEvent: {}
+[24.435145] (-) TimerEvent: {}
+[24.536051] (-) TimerEvent: {}
+[24.637434] (-) TimerEvent: {}
+[24.738207] (-) TimerEvent: {}
+[24.768330] (imu) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable imu\x1b[0m\n'}
+[24.838404] (-) TimerEvent: {}
+[24.939212] (-) TimerEvent: {}
+[25.040059] (-) TimerEvent: {}
+[25.141015] (-) TimerEvent: {}
+[25.241964] (-) TimerEvent: {}
+[25.342685] (-) TimerEvent: {}
+[25.443409] (-) TimerEvent: {}
+[25.544089] (-) TimerEvent: {}
+[25.644810] (-) TimerEvent: {}
+[25.729204] (imu) StdoutLine: {'line': b'[100%] Built target imu\n'}
+[25.745042] (-) TimerEvent: {}
+[25.764089] (imu) CommandEnded: {'returncode': 0}
+[25.845250] (-) TimerEvent: {}
+[25.906348] (imu) JobProgress: {'identifier': 'imu', 'progress': 'install'}
+[25.941752] (imu) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/thxssio/Codes/RobotROS/build/imu'], 'cwd': '/home/thxssio/Codes/RobotROS/build/imu', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'thxssio'), ('SSH_CLIENT', '192.168.0.195 61176 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/thxssio'), ('OLDPWD', '/home/thxssio/Codes/RobotROS/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator2ca99f9887f2e75578a20e2d2ebb4e9f7'), ('COLCON_PREFIX_PATH', '/home/thxssio/Codes/RobotROS/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'thxssio'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/thxssio/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/thxssio/Codes/RobotROS/install/imu_python:/home/thxssio/Codes/RobotROS/install/imu:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:8217c878-8387-494d-9ec7-195be51645ba'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/thxssio/Codes/RobotROS/build/imu'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.195 61176 192.168.0.190 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/thxssio/Codes/RobotROS/install/imu_python/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/thxssio/Codes/RobotROS/install/imu:/home/thxssio/Codes/RobotROS/install/imu_python:/opt/ros/humble')]), 'shell': False}
+[25.946948] (-) TimerEvent: {}
+[25.970727] (imu) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[25.971384] (imu) StdoutLine: {'line': b'-- Installing: /home/thxssio/Codes/RobotROS/install/imu/lib/imu/imu\n'}
+[25.981696] (imu) StdoutLine: {'line': b'-- Set runtime path of "/home/thxssio/Codes/RobotROS/install/imu/lib/imu/imu" to ""\n'}
+[25.982294] (imu) StdoutLine: {'line': b'-- Installing: /home/thxssio/Codes/RobotROS/install/imu/share/imu//launch\n'}
+[25.982676] (imu) StdoutLine: {'line': b'-- Installing: /home/thxssio/Codes/RobotROS/install/imu/share/imu//launch/imu_launch.py\n'}
+[25.983430] (imu) StdoutLine: {'line': b'-- Installing: /home/thxssio/Codes/RobotROS/install/imu/share/imu//params\n'}
+[25.983908] (imu) StdoutLine: {'line': b'-- Installing: /home/thxssio/Codes/RobotROS/install/imu/share/imu//params/mpu6050.yaml\n'}
+[25.985452] (imu) StdoutLine: {'line': b'-- Installing: /home/thxssio/Codes/RobotROS/install/imu/share/ament_index/resource_index/package_run_dependencies/imu\n'}
+[25.986933] (imu) StdoutLine: {'line': b'-- Installing: /home/thxssio/Codes/RobotROS/install/imu/share/ament_index/resource_index/parent_prefix_path/imu\n'}
+[25.988244] (imu) StdoutLine: {'line': b'-- Installing: /home/thxssio/Codes/RobotROS/install/imu/share/imu/environment/ament_prefix_path.sh\n'}
+[25.989279] (imu) StdoutLine: {'line': b'-- Installing: /home/thxssio/Codes/RobotROS/install/imu/share/imu/environment/ament_prefix_path.dsv\n'}
+[25.990320] (imu) StdoutLine: {'line': b'-- Installing: /home/thxssio/Codes/RobotROS/install/imu/share/imu/environment/path.sh\n'}
+[25.991264] (imu) StdoutLine: {'line': b'-- Installing: /home/thxssio/Codes/RobotROS/install/imu/share/imu/environment/path.dsv\n'}
+[25.992243] (imu) StdoutLine: {'line': b'-- Installing: /home/thxssio/Codes/RobotROS/install/imu/share/imu/local_setup.bash\n'}
+[25.993212] (imu) StdoutLine: {'line': b'-- Installing: /home/thxssio/Codes/RobotROS/install/imu/share/imu/local_setup.sh\n'}
+[25.994236] (imu) StdoutLine: {'line': b'-- Installing: /home/thxssio/Codes/RobotROS/install/imu/share/imu/local_setup.zsh\n'}
+[25.995231] (imu) StdoutLine: {'line': b'-- Installing: /home/thxssio/Codes/RobotROS/install/imu/share/imu/local_setup.dsv\n'}
+[25.996357] (imu) StdoutLine: {'line': b'-- Installing: /home/thxssio/Codes/RobotROS/install/imu/share/imu/package.dsv\n'}
+[25.997744] (imu) StdoutLine: {'line': b'-- Installing: /home/thxssio/Codes/RobotROS/install/imu/share/ament_index/resource_index/packages/imu\n'}
+[25.998960] (imu) StdoutLine: {'line': b'-- Installing: /home/thxssio/Codes/RobotROS/install/imu/share/imu/cmake/imuConfig.cmake\n'}
+[25.999912] (imu) StdoutLine: {'line': b'-- Installing: /home/thxssio/Codes/RobotROS/install/imu/share/imu/cmake/imuConfig-version.cmake\n'}
+[26.000974] (imu) StdoutLine: {'line': b'-- Installing: /home/thxssio/Codes/RobotROS/install/imu/share/imu/package.xml\n'}
+[26.006144] (imu) CommandEnded: {'returncode': 0}
+[26.047216] (-) TimerEvent: {}
+[26.148904] (-) TimerEvent: {}
+[26.250313] (-) TimerEvent: {}
+[26.261576] (imu) JobEnded: {'identifier': 'imu', 'rc': 0}
+[26.264062] (-) EventReactorShutdown: {}
