@@ -160,3 +160,13 @@ pip install setuptools==58.2.0
 ```
 ros2 launch imu imu_launch.py
 ```
+
+Check Cam:
+
+Install:
+
+```
+sudo apt install v4l-utils -y
+```
+
+* `v4l2-ctl --list-devices`
