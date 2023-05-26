@@ -185,7 +185,7 @@ sudo apt-get update
 sudo apt-get upgrade
 ```
  Open Path python: 
-       Execute test csi cam
+     -  Execute test csi cam
  ```
  python opencv_camera.py
  ```
