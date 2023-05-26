@@ -176,4 +176,6 @@ OpenCv Install:
 ```
 sudo apt-get update
 sudo apt install libopencv-dev python3-opencv
+sudo nano /boot/firmware/config.txt
 ```
+add last line: `start_x=1`
