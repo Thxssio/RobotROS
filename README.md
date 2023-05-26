@@ -170,3 +170,10 @@ sudo apt install v4l-utils -y
 ```
 * `v4l2-ctl --list-devices`
     - [x] CSI CAM: `/dev/video0`
+
+OpenCv Install:
+
+```
+sudo apt-get update
+sudo apt install libopencv-dev python3-opencv
+```
