@@ -180,6 +180,8 @@ sudo nano /boot/firmware/config.txt
 ```
 add last line: `start_x=1`
 
+
+
 ```
 sudo apt-get update
 sudo apt-get upgrade
@@ -189,3 +191,12 @@ sudo apt-get upgrade
  ```
  python opencv_camera.py
  ```
+ 
+ Detect object
+ 
+```
+cd python/cam/ && git clone https://github.com/Thxssio/ObjectDetectionPI.git
+```
+Done!!
+
+Execute `python detect1.py`
