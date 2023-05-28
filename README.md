@@ -9,6 +9,11 @@
 [![Python package](https://github.com/Thxssio/RobotROS/actions/workflows/testpython.yml/badge.svg)](https://github.com/Thxssio/RobotROS/actions/workflows/testpython.yml)
 
 
+Install ROS2 HUMBLE
+```
+
+https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html
+```
 
 *MPU6050:*
 
